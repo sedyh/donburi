@@ -33,6 +33,9 @@ go run github.com/yohamta/donburi/examples/bunnymark@master
 
 Maximum objects at stable 60 FPS
 
-| Software                                     | Hardware                     |  Donburi objects |
-|----------------------------------------------|------------------------------|-----------------|
-| Native, MacOS Big Sur 11.6                   | 2.3 GHz 8-Core Intel Core i9 | 40000           |
+| Software                                     | Hardware                     |  Donburi objects | Mizu objects | Ebiten objects |
+|----------------------------------------------|------------------------------|------------------|--------------|----------------|
+| Native, MacOS Big Sur 11.1                   | M1 2020                      | -                | -            | 65400          |
+| Native, MacOS Big Sur 11.6                   | 2.3 GHz 8-Core Intel Core i9 | 40000            | -            | -              |
+| Native, Linux Mint 20.2 Cinnamon             | Ryzen 5 3600, RX 5700 XT     | 30000            | 16000        | 36000          |
+| Wasm, Android 10, Chrome 91.0                | Snapdragon 720G              | -                | -            | 1700           |
